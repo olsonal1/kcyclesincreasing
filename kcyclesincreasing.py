@@ -10,7 +10,7 @@
 # from j to i.
 #
 # The general problem of, "can we find a k-cycle in an undirected graph?"-
-# has been proven to be NP-complete. However, by generalizing and randomizing the matrix 
+# has been proven to be NP-hard. However, by generalizing and randomizing the matrix 
 # multiplication algorithm as above, we can find k-cycles of length less than
 # lg(n) in a close-to-polynomial O(n^w+lglg(n-1)), where w is the constant
 # of matrix multiplication (less than 2.4 with the most efficient implementations):
